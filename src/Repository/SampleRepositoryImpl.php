@@ -6,7 +6,7 @@ use LabApp\Domain\Sample\Sample;
 
 class SampleRepositoryImpl implements SampleRepository
 {
-    // Repository usando bdd ficticio 
+    // Repository
     private $samples = [];
 
     public function getById($id): ?Sample
